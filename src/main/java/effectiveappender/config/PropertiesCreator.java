@@ -1,12 +1,10 @@
 package effectiveappender.config;
 
-import lombok.NoArgsConstructor;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
 
 import java.util.Properties;
 
-@NoArgsConstructor
 public class PropertiesCreator {
 
     public Properties createProperties(String serverAddress) {
